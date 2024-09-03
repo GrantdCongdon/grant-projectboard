@@ -1,0 +1,30 @@
+.container {
+  display: ruby;
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+}
+
+.fishing-rod {
+    background-color: #6b6b6b5a !important;
+    border: 1px solid transparent !important;
+    border-radius: 4px !important;
+    width: 95%;
+    margin-top: 2em;
+}
+
+.wheelchair {
+    background-color: #6b6b6b5a !important;
+    border: 1px solid transparent !important;
+    border-radius: 4px !important;
+    width: 95%;
+    margin-top: 2em;
+}
+
+.micromouse {
+    background-color: #6b6b6b5a !important;
+    border: 1px solid transparent !important;
+    border-radius: 4px !important;
+    width: 95%;
+    margin-top: 2em;
+}
