@@ -4,7 +4,7 @@ export default function About() {
     return (
         <div className="about-div">
                 <div className="left-div">
-                    <embed src="/Resume.pdf" width="800" height="1100" className="pdf"/>
+                    <embed src="Resume.pdf" width="800" height="1100" className="pdf"/>
                 </div>
                 <div className="right-div">
                     <div className="top-right-div">
