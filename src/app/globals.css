@@ -1,33 +1,62 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  background: radial-gradient(circle, #131313, #262626); /* Add gradient */
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+h1 {
+  font-size: 2rem;
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 0.5em;
+  margin-bottom: 0em;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-top: 1em;
+  height: 2em;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+h3 {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+p {
+  padding-left: 1em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header {
+  background-image: url("/image.png");
+}
+
+.navbar-div {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly !important;
+}
+
+.tabs {
+  width: 100%;
+  display: flex;
+}
+
+.navbar-tab {
+  color: #ffffff !important;
+  width: 100%;
+  margin: 3em !important;
+  background-color: #6b6b6b5a !important;
+  padding: 0.6em 0.6em !important;
+  display: flex !important;
+  flex-grow: 1 !important;
+  text-align: center !important;
+}
+
+.navbar-tab:hover {
+  background-color: #6b6b6b !important;
+}
+
+.tab-content {
+  text-align: center;
 }
